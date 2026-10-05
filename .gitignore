@@ -1,0 +1,39 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+
+# Local Storage, Data & Vector Databases
+chroma_db/
+data/
+uploads/
+reports/
+
+# Document artifacts & logs
+*.pdf
+*.docx
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary / Scratch files
+test.py
+tests/
